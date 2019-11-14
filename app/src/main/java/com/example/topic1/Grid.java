@@ -55,7 +55,7 @@ public class Grid extends AppCompatActivity {
                 symbol = 1;
                 text1 = Integer.parseInt(etdisplay.getText().toString());
                 gridclass.setFirst(text1);
-                
+
                 etdisplay.getText().clear();
                 textcheckSum.setText(text1 + "+");
 
@@ -70,6 +70,7 @@ public class Grid extends AppCompatActivity {
                 }
                 symbol = 2;
                 text1 = Integer.parseInt(etdisplay.getText().toString());
+                gridclass.setFirst(text1);
                 etdisplay.getText().clear();
                 textcheckSum.setText(text1 + "-");
             }
@@ -83,6 +84,7 @@ public class Grid extends AppCompatActivity {
                 }
                 symbol = 3;
                 text1 = Integer.parseInt(etdisplay.getText().toString());
+                gridclass.setFirst(text1);
                 etdisplay.getText().clear();
                 textcheckSum.setText(text1 + "*");
             }
@@ -96,6 +98,7 @@ public class Grid extends AppCompatActivity {
                 }
                 symbol = 4;
                 text1 = Integer.parseInt(etdisplay.getText().toString());
+                gridclass.setFirst(text1);
                 etdisplay.getText().clear();
                 textcheckSum.setText(text1 + "/");
 
